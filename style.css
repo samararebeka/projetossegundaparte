@@ -140,11 +140,11 @@ body{
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5) ;
     visibility: hidden;
     opacity: 0;
+    transition: 0.3s ease;
 }
 
 .dot-menu.active{
     visibility: visible;
-
     opacity: 1;
 }
 
